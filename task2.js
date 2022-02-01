@@ -1,4 +1,7 @@
 /// <reference types = "Cypress"/>
+//1. Sjekke at innlogget bruker kan gjennomføre en bestilling og betale med “check”.
+//2. Sjekke at innlogget bruker kan sende en e-mail med produktet til en venn.
+//3. Sjekke at innlogget bruker kan legge til et plagg i ønskelisten.
 
 describe("Task 2", ()=>{
     beforeEach(()=>{
