@@ -33,21 +33,6 @@ def closest1(list):
         return "Empty list"
 
 
-def closest(list):
-    if len(list) >= 1:
-        closestNumber = list[0]
-        for i in list:
-            if (i > 0 and i < abs(closestNumber)):
-                closestNumber = i
-            if (i < 0 and i < abs(closestNumber)):
-                closestNumber = i
-            if (i > 0 and (i - abs(closestNumber)) == 0):
-                closestNumber = i
-        return closestNumber
-    else:
-        return "Empty list"
-
-
 
 def tester():
     test_one_element_input()
