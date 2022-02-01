@@ -1,4 +1,6 @@
 /// <reference types = "Cypress"/>
+//Testcase “Use contact page”
+//Sjekke at “Contact us” funksjonaliteten fungerer for ikke-innloggede brukere som vil ta kontakt med kundeservice.
 
 describe('Task 1: Test contact us for not logged in user', ()=>{
 
